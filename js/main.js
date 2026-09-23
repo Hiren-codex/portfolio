@@ -413,6 +413,8 @@ const COMMAND_RESPONSES = {
   `,
   "projects": `
     <p class="t-warning">🚀 <strong>PRODUCTION & LIVE PROJECTS:</strong></p>
+    <p>1. <strong>JobQuick (Skyscanner for Jobs):</strong> <a href="https://jobquick-nine.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/JobQuick" target="_blank" style="color:#a855f7;">GitHub ↗</a> (AI Multi-Board Scanner &amp; ATS Match Engine)</p>
+    <p>2. <strong>SyncScribe:</strong> <a href="https://syncscribe-two.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/SyncScribe" target="_blank" style="color:#a855f7;">GitHub ↗</a> (AI Audio/Video Summarizer)</p>
     <p>1. <strong>FutureGEN (CodingLight):</strong> Live on Port 3000 (Multi-Model Autonomous Coding Agent)</p>
     <p>2. <strong>Glowy+ Telehealth:</strong> <a href="https://telehealth-platform-far30n6ml-bg-46f3.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> (Next.js 14 &amp; GLP-1 Medical Platform)</p>
     <p>3. <strong>Glowy+ Mobile App:</strong> Live on Port 4444 (Expo Go / React Native)</p>
@@ -448,8 +450,15 @@ const COMMAND_RESPONSES = {
     <p>• WhatsApp / Phone: <a href="https://wa.me/919510508406" target="_blank" style="color:#34d399;">+91 95105 08406</a></p>
     <p>• LinkedIn: <a href="https://www.linkedin.com/in/hiren-kachhadiya-297157184" target="_blank" style="color:#818cf8;">linkedin.com/in/hiren-kachhadiya-297157184</a></p>
   `,
+  "jobquick": `
+    <p class="t-accent">⚡ <strong>JOBQUICK • The Skyscanner for Jobs:</strong></p>
+    <p>• <strong>Overview:</strong> AI-powered multi-board job market scanner &amp; ATS matching engine querying JSearch, Adzuna, and Jooble in parallel.</p>
+    <p>• <strong>Live App:</strong> <a href="https://jobquick-nine.vercel.app/" target="_blank" style="color:#38bdf8;">https://jobquick-nine.vercel.app</a></p>
+    <p>• <strong>GitHub Repo:</strong> <a href="https://github.com/Hiren-codex/JobQuick" target="_blank" style="color:#a855f7;">github.com/Hiren-codex/JobQuick</a></p>
+    <p>• <strong>Stack:</strong> Next.js 16, TypeScript, React 19, FastAPI, Tailwind CSS v4, Zustand, Docker</p>
+  `,
   "help": `
-    <p class="t-dim">Available commands: <strong>status</strong>, <strong>skills</strong>, <strong>projects</strong>, <strong>futuregen</strong>, <strong>why-hire</strong>, <strong>contact</strong>, <strong>clear</strong></p>
+    <p class="t-dim">Available commands: <strong>status</strong>, <strong>skills</strong>, <strong>projects</strong>, <strong>jobquick</strong>, <strong>futuregen</strong>, <strong>why-hire</strong>, <strong>contact</strong>, <strong>clear</strong></p>
   `
 };
 
@@ -509,6 +518,29 @@ if (terminalForm && terminalInput) {
 
 /* ─── PROJECT DETAIL MODAL ───────────────────────────────── */
 const PROJECT_MODAL_DATA = {
+  jobquick: {
+    badges: [
+      { text: '⚡ Skyscanner for Jobs', style: 'background:rgba(37,99,235,0.15);color:#60a5fa;border-color:rgba(37,99,235,0.3);' },
+      { text: '⭐ Active Live App', style: 'background:rgba(59,130,246,0.15);color:#60a5fa;border-color:rgba(59,130,246,0.3);' },
+      { text: '🐙 GitHub', style: 'background:rgba(255,255,255,0.1);color:#e2e8f0;' }
+    ],
+    title: 'JobQuick • Skyscanner for Jobs & ATS Match Engine',
+    subtitle: 'AI-Powered Multi-Board Job Market Scanner & ATS Resume Tailor',
+    problem: 'Job seekers lose countless hours navigating fragmented portals (LinkedIn, Indeed, Adzuna, Jooble) with zero visibility into their real hireability or why their resumes get rejected by automated ATS screeners. JobQuick solves this with unified multi-board search, transparent hireability scoring, and 1-click ATS cover letters.',
+    features: [
+      'Multi-Board Parallel Scanner: Simultaneously scrapes and normalizes job listings across JSearch, Adzuna, and Jooble.',
+      'Tri-Factor Hireability Score: Evaluates 40% hard skills overlap, 30% experience seniority regression, and 30% semantic AI alignment.',
+      'In-Browser PDF Parsing: Extracts candidate skills, seniority, and target roles dynamically with 100% reliability.',
+      '1-Click ATS Application Tailor: Generates tailored cover letters and specific bullet point enhancements calibrated to each company tier.',
+      'Dual Architecture: Standalone Next.js 16 Edge runtime for instant Vercel deployment alongside FastAPI and PostgreSQL/pgvector microservice support.'
+    ],
+    techStack: ['Next.js 16', 'TypeScript', 'React 19', 'FastAPI / Python', 'Tailwind CSS v4', 'Zustand', 'PostgreSQL / pgvector', 'Docker'],
+    metrics: '⚡ Scans 3 major job boards in under 800ms and generates customized ATS application packages in 1 click.',
+    liveUrl: 'https://jobquick-nine.vercel.app/',
+    liveText: 'Visit Live App (Vercel) ↗',
+    gitUrl: 'https://github.com/Hiren-codex/JobQuick',
+    gitText: 'View GitHub Repo ↗'
+  },
   futuregen: {
     badges: [
       { text: '🤖 AI Autonomous Agent', style: 'background:rgba(6,182,212,0.15);color:#22d3ee;border-color:rgba(6,182,212,0.3);' },
