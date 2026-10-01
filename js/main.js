@@ -413,13 +413,14 @@ const COMMAND_RESPONSES = {
   `,
   "projects": `
     <p class="t-warning">🚀 <strong>PRODUCTION & LIVE PROJECTS:</strong></p>
-    <p>1. <strong>JobQuick (Skyscanner for Jobs):</strong> <a href="https://jobquick-nine.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/JobQuick" target="_blank" style="color:#a855f7;">GitHub ↗</a> (AI Multi-Board Scanner &amp; ATS Match Engine)</p>
-    <p>2. <strong>SyncScribe:</strong> <a href="https://syncscribe-two.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/SyncScribe" target="_blank" style="color:#a855f7;">GitHub ↗</a> (AI Audio/Video Summarizer)</p>
-    <p>1. <strong>FutureGEN (CodingLight):</strong> Live on Port 3000 (Multi-Model Autonomous Coding Agent)</p>
-    <p>2. <strong>Glowy+ Telehealth:</strong> <a href="https://telehealth-platform-far30n6ml-bg-46f3.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> (Next.js 14 &amp; GLP-1 Medical Platform)</p>
-    <p>3. <strong>Glowy+ Mobile App:</strong> Live on Port 4444 (Expo Go / React Native)</p>
-    <p>4. <strong>Glowy Supplier & Admin:</strong> Live on Port 5001/supplier (RBAC Governance)</p>
-    <p>5. <strong>Developer Portfolio:</strong> <a href="https://hirenkumar-portfolio.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/portfolio" target="_blank" style="color:#a855f7;">GitHub ↗</a></p>
+    <p>1. <strong>SkillCoach (Career Accelerator):</strong> <a href="https://hiren-codex.github.io/SkillCoach/" target="_blank" style="color:#38bdf8;">Live Demo ↗</a> &bull; <a href="https://github.com/Hiren-codex/SkillCoach" target="_blank" style="color:#a855f7;">GitHub ↗</a> (Dual-Track Technical &amp; EQ Platform)</p>
+    <p>2. <strong>JobQuick (Skyscanner for Jobs):</strong> <a href="https://jobquick-nine.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/JobQuick" target="_blank" style="color:#a855f7;">GitHub ↗</a> (AI Multi-Board Scanner &amp; ATS Match Engine)</p>
+    <p>3. <strong>SyncScribe:</strong> <a href="https://syncscribe-two.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/SyncScribe" target="_blank" style="color:#a855f7;">GitHub ↗</a> (AI Audio/Video Summarizer)</p>
+    <p>4. <strong>FutureGEN (CodingLight):</strong> Live on Port 3000 (Multi-Model Autonomous Coding Agent)</p>
+    <p>5. <strong>Glowy+ Telehealth:</strong> <a href="https://telehealth-platform-far30n6ml-bg-46f3.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> (Next.js 14 &amp; GLP-1 Medical Platform)</p>
+    <p>6. <strong>Glowy+ Mobile App:</strong> Live on Port 4444 (Expo Go / React Native)</p>
+    <p>7. <strong>Glowy Supplier & Admin:</strong> Live on Port 5001/supplier (RBAC Governance)</p>
+    <p>8. <strong>Developer Portfolio:</strong> <a href="https://hirenkumar-portfolio.vercel.app/" target="_blank" style="color:#38bdf8;">Live on Vercel ↗</a> &bull; <a href="https://github.com/Hiren-codex/portfolio" target="_blank" style="color:#a855f7;">GitHub ↗</a></p>
   `,
   "portfolio": `
     <p class="t-accent">🌌 <strong>HIRENKUMAR DEVELOPER PORTFOLIO:</strong></p>
@@ -450,6 +451,20 @@ const COMMAND_RESPONSES = {
     <p>• WhatsApp / Phone: <a href="https://wa.me/919510508406" target="_blank" style="color:#34d399;">+91 95105 08406</a></p>
     <p>• LinkedIn: <a href="https://www.linkedin.com/in/hiren-kachhadiya-297157184" target="_blank" style="color:#818cf8;">linkedin.com/in/hiren-kachhadiya-297157184</a></p>
   `,
+    "skillcoach": `
+    <p class="t-accent">🚀 <strong>SKILLCOACH — Campus to Corporate Career Accelerator:</strong></p>
+    <p>• <strong>Overview:</strong> AI-powered career acceleration platform bridging college-to-corporate gap with dual-track technical depth and workplace EQ readiness scoring.</p>
+    <p>• <strong>Live Demo:</strong> <a href="https://hiren-codex.github.io/SkillCoach/" target="_blank" style="color:#38bdf8;">https://hiren-codex.github.io/SkillCoach/</a></p>
+    <p>• <strong>GitHub Repo:</strong> <a href="https://github.com/Hiren-codex/SkillCoach" target="_blank" style="color:#a855f7;">github.com/Hiren-codex/SkillCoach</a></p>
+    <p>• <strong>Stack:</strong> Expo SDK 57, React Native, TypeScript, Expo Router v4, Zustand, AsyncStorage, Vercel/GitHub Pages</p>
+  `,
+    "syncscribe": `
+    <p class="t-accent">🎙️ <strong>SYNCSCRIBE — AI Audio & Video Meeting Summarizer:</strong></p>
+    <p>• <strong>Overview:</strong> Production-grade meeting intelligence platform powered by Google Gemini 3.5 Flash & Whisper for automated transcription, action trackers, and Notion exports.</p>
+    <p>• <strong>Live App:</strong> <a href="https://syncscribe-two.vercel.app/" target="_blank" style="color:#38bdf8;">https://syncscribe-two.vercel.app</a></p>
+    <p>• <strong>GitHub Repo:</strong> <a href="https://github.com/Hiren-codex/SyncScribe" target="_blank" style="color:#a855f7;">github.com/Hiren-codex/SyncScribe</a></p>
+    <p>• <strong>Stack:</strong> Next.js 16, TypeScript, React 19, Google Gemini 3.5, OpenAI Whisper, Tailwind CSS, Zustand</p>
+  `,
   "jobquick": `
     <p class="t-accent">⚡ <strong>JOBQUICK • The Skyscanner for Jobs:</strong></p>
     <p>• <strong>Overview:</strong> AI-powered multi-board job market scanner &amp; ATS matching engine querying JSearch, Adzuna, and Jooble in parallel.</p>
@@ -458,7 +473,7 @@ const COMMAND_RESPONSES = {
     <p>• <strong>Stack:</strong> Next.js 16, TypeScript, React 19, FastAPI, Tailwind CSS v4, Zustand, Docker</p>
   `,
   "help": `
-    <p class="t-dim">Available commands: <strong>status</strong>, <strong>skills</strong>, <strong>projects</strong>, <strong>jobquick</strong>, <strong>futuregen</strong>, <strong>why-hire</strong>, <strong>contact</strong>, <strong>clear</strong></p>
+    <p class="t-dim">Available commands: <strong>status</strong>, <strong>skills</strong>, <strong>projects</strong>, <strong>skillcoach</strong>, <strong>jobquick</strong>, <strong>syncscribe</strong>, <strong>futuregen</strong>, <strong>why-hire</strong>, <strong>contact</strong>, <strong>clear</strong>, <strong>skills</strong>, <strong>projects</strong>, <strong>skillcoach</strong>, <strong>jobquick</strong>, <strong>futuregen</strong>, <strong>why-hire</strong>, <strong>contact</strong>, <strong>clear</strong></p>
   `
 };
 
@@ -518,6 +533,29 @@ if (terminalForm && terminalInput) {
 
 /* ─── PROJECT DETAIL MODAL ───────────────────────────────── */
 const PROJECT_MODAL_DATA = {
+  skillcoach: {
+    badges: [
+      { text: '🚀 AI Career Accelerator', style: 'background:rgba(99,102,241,0.15);color:#a5b4fc;border-color:rgba(99,102,241,0.3);' },
+      { text: '⚡ Active Live App', style: 'background:rgba(59,130,246,0.15);color:#60a5fa;border-color:rgba(59,130,246,0.3);' },
+      { text: '🐙 GitHub', style: 'background:rgba(255,255,255,0.1);color:#e2e8f0;' }
+    ],
+    title: 'SkillCoach — Campus to Corporate Career Accelerator',
+    subtitle: 'Dual-Track Learning & Evaluation Platform Bridging Academic Gaps with Production War Rooms & Corporate EQ',
+    problem: 'College graduates in India often struggle with the sharp transition to high-bar corporate environments due to a disconnect between theoretical coursework and real-world tech demands (incident triage, production latency, async updates, and workplace EQ). SkillCoach solves this with an AI-driven dual-track readiness gauge, 12 industry roadmaps, live container triage simulations, and STAR behavioral coaching.',
+    features: [
+      'Dual-Track Evaluation Gauge: Real-time independent tracking of Technical Readiness (%) and Corporate EQ Readiness (%) across a 4-pillar competency matrix.',
+      '12 Curated Industry Tracks: Comprehensive roadmaps covering Full-Stack, AI/ML, Cloud/DevOps, Cybersecurity, Data Analytics, High-EQ Dilemmas, and Career Strategy.',
+      'Production War Room Triage: Interactive simulated incident war rooms replicating real production outages (Swiggy 504 timeouts, Razorpay idempotency lockup, CRED auth pool exhaustion).',
+      'STAR Interview Studio & AI Coach: Real-time prompt-driven behavioral grilling, situation framing, and architectural trade-off evaluations.',
+      'Cross-Platform Architecture: High-performance universal app built with Expo SDK 57, React Native, Expo Router v4, Zustand persistence, and edge-ready web export.'
+    ],
+    techStack: ['Expo SDK 57', 'React Native 0.86', 'TypeScript', 'Expo Router v4', 'Zustand', 'AsyncStorage', 'SVG / Vector Icons', 'GitHub Pages / Vercel'],
+    metrics: '🚀 Live proctored dual-gauge scoring engine with 12 industry roadmaps, autonomous code execution rubrics, and sub-second client-side hydration.',
+    liveUrl: 'https://hiren-codex.github.io/SkillCoach/',
+    liveText: 'Visit Live Demo (GitHub Pages) ↗',
+    gitUrl: 'https://github.com/Hiren-codex/SkillCoach',
+    gitText: 'View GitHub Repo ↗'
+  },
   jobquick: {
     badges: [
       { text: '⚡ Skyscanner for Jobs', style: 'background:rgba(37,99,235,0.15);color:#60a5fa;border-color:rgba(37,99,235,0.3);' },

@@ -17,6 +17,7 @@ A modern, high-performance personal developer portfolio engineered with sleek gl
 - 📱 **Fully Responsive Glassmorphic UI**: Engineered with CSS custom properties, backdrop filters, fluid typography, and mobile-first navigation.
 - ⚡ **Zero-Dependency Architecture**: Pure Vanilla HTML5, CSS3, and JavaScript ensuring microsecond load times and 100/100 Core Web Vitals.
 - 🩺 **Featured Production Projects Showcase**:
+  - **SkillCoach**: AI-powered career accelerator & job-readiness platform with dual-track technical & workplace EQ evaluation ([Live Demo](https://hiren-codex.github.io/SkillCoach/) • [GitHub](https://github.com/Hiren-codex/SkillCoach)).
   - **JobQuick**: AI-powered multi-board job market scanner & ATS match engine ([Live Demo](https://jobquick-nine.vercel.app/) • [GitHub](https://github.com/Hiren-codex/JobQuick)).
   - **SyncScribe**: Production-grade AI meeting intelligence & audio/video note summarizer ([Live Demo](https://syncscribe-two.vercel.app/) • [GitHub](https://github.com/Hiren-codex/SyncScribe)).
   - **FutureGEN**: Multi-model autonomous coding agent transforming natural language prompts into production architectures.
